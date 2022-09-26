@@ -1,0 +1,28 @@
+{
+  "name": "watchit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grant1993/watchIt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "watchit": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Grant1993/watchIt/issues"
+  },
+  "homepage": "https://github.com/Grant1993/watchIt#readme",
+  "dependencies": {
+    "caporal": "^1.4.0",
+    "chokidar": "^3.5.3",
+    "lodash.debounce": "^4.0.8"
+  }
+}
